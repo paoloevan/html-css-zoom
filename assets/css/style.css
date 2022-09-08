@@ -75,7 +75,7 @@ nav {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background-color: green;
+    background-color: rgb(24, 23, 23);
     height: 4rem;
 }
 
@@ -104,6 +104,13 @@ nav {
     justify-content: space-between;
 }
 
+.audio_video,
+.actions {
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
 .audio_video, 
 .end {
     flex-grow: 1;
@@ -116,6 +123,7 @@ nav {
 
 .end {
     text-align: right;
+
 }
 
 .row_bl {
@@ -129,6 +137,22 @@ nav span {
 
 nav i {
     font-size: 1.5rem;
+}
+
+.row_actions {
+    display: flex;
+    justify-content: center;
+}
+
+.row_end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#endmeeting {
+    margin-right: 1rem;
+    color: red;
 }
 
 
