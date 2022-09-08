@@ -22,11 +22,6 @@ body {
     justify-content: space-between;
 }
 
-.row_nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .clearfix {
     display: table;
@@ -103,6 +98,39 @@ nav {
 }
 
 /* nav */
+.row_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.audio_video, 
+.end {
+    flex-grow: 1;
+}
+
+.actions {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.end {
+    text-align: right;
+}
+
+.row_bl {
+    display: flex;
+}
+
+nav span {
+    text-align: center;
+    padding: 5px;
+}
+
+nav i {
+    font-size: 1.5rem;
+}
+
 
 
 
