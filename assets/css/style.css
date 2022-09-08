@@ -56,13 +56,13 @@ body {
 
 /*  */
 
-.speaker_full {
+.speaker_fullscreen {
     position: absolute;
     right: 5px;
     top: 5px;
 }
 
-.speaker_full span {
+.speaker_fullscreen span {
     color: white;
     background-color: rgba(128, 128, 128, 0.534);
     border-radius: 5px;
@@ -126,7 +126,7 @@ nav {
 
 }
 
-.row_bl {
+.row_audio_video {
     display: flex;
 }
 
