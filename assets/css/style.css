@@ -76,7 +76,6 @@ nav {
     left: 0px;
     right: 0px;
     background-color: rgb(24, 23, 23);
-    height: 4rem;
 }
 
 .speaker {
@@ -102,6 +101,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0.5rem;
 }
 
 .audio_video,
@@ -142,6 +142,7 @@ nav i {
 .row_actions {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .row_end {
@@ -153,6 +154,10 @@ nav i {
 #endmeeting {
     margin-right: 1rem;
     color: red;
+}
+
+#share_screen {
+    color: green;
 }
 
 
