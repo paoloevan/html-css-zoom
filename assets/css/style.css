@@ -133,6 +133,7 @@ nav {
 nav span {
     text-align: center;
     padding: 5px;
+    margin: 0 0.3rem;
 }
 
 nav i {
@@ -158,6 +159,11 @@ nav i {
 
 #share_screen {
     color: green;
+}
+
+#menu {
+    font-size: 0.5rem;
+    margin-left: -0.5rem;
 }
 
 
