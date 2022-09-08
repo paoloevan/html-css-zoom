@@ -1,0 +1,24 @@
+/* Commone rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utilities */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clearfix {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
