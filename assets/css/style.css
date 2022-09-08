@@ -1,4 +1,4 @@
-/* Commone rules */
+/* #region Commone rules */
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +9,23 @@ img {
     max-width: 100%;
 }
 
-/* Utilities */
+body {
+    background-color: black;
+}
+/* #endregion */
+
+/* #region Utilities */
 .row {
     display: flex;
     flex-wrap: wrap;
+    align-content:center ;
+    justify-content: space-between;
+}
+
+.row_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .clearfix {
@@ -20,5 +33,76 @@ img {
     clear: both;
     content: "";
 }
+
+.container {
+    margin: 3rem auto 1rem auto;
+    padding-top: 0.3rem;
+    width: 95%;
+}
+/* #endregion */
+
+/*#region debug */
+.debug .container {
+    background-color: red;
+    height: 500px;
+}
+
+.debug nav {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: green;
+    height: 4rem;
+}
+
+
+
+/*  */
+
+.speaker_full {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.speaker_full span {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.534);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+nav {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: green;
+    height: 4rem;
+}
+
+.speaker {
+    margin: 0.3rem;
+    position: relative;
+    max-height: 100px;
+}
+
+.name {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(128, 128, 128, 0.534);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* nav */
+
 
 
