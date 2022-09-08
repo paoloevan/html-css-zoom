@@ -11,6 +11,7 @@ img {
 
 body {
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 /* #endregion */
 
@@ -101,7 +102,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0.5rem;
 }
 
 .audio_video,
@@ -130,6 +130,11 @@ nav {
     display: flex;
 }
 
+.audio_video div,
+.actions div {
+    margin: 0.5rem 0;
+}
+
 nav span {
     text-align: center;
     padding: 5px;
@@ -155,6 +160,8 @@ nav i {
 #endmeeting {
     margin-right: 1rem;
     color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
 
 #share_screen {
