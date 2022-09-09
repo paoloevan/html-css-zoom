@@ -135,7 +135,8 @@ nav {
     margin: 0.5rem 0;
 }
 
-nav span {
+.audio_video>div,
+.actions>div {
     text-align: center;
     padding: 5px;
     margin: 0 0.3rem;
